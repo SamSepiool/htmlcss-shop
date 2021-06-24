@@ -21,7 +21,11 @@
 
 .cell img{
     width: 100%;
+}
 
+div .b{
+    display: none;
+    
 }
 
 .heart{
@@ -35,7 +39,13 @@
     padding: 3px;
     margin: 25px 5px;
     font-size: 2em;
-    
-   
 
+}
+
+.cell:hover .b{
+    display: block;
+}
+
+.cell:hover img{
+    display: none;
 }
