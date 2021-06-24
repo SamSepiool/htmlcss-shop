@@ -5,4 +5,22 @@
     box-sizing: border-box;
 }
 
+/* common */
+.box{
+    width: 60%;
+    margin: auto;
+    border: 1px solid red;
+}
 
+.cell {
+    height:  300px;
+    width: calc(100% / 3);
+    /* border:1px solid red; */
+    display: inline-block;
+    padding: 5px;
+}
+
+.cell img{
+    width: 100%;
+
+}
