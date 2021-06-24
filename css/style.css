@@ -15,9 +15,21 @@
 .cell {
     width: calc(100% / 3);
     display: inline-block;
-    padding:10px 5px;
-    position: relative;
+    padding:1px 5px;
+    position: relative;  
+    
 }
+
+p:last-child{
+    color: red;
+    font-weight: bold;
+}
+
+p > span{
+    text-decoration: line-through;
+    color: initial;
+}
+
 
 .cell img{
     width: 100%;
